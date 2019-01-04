@@ -1,0 +1,78 @@
+<resources>
+    <string name="app_name">Project3_Cars</string>
+    <string name="view_entire_pic">View entire picture</string>string>
+    <string name="open_in_browser">View official website</string>
+    <string name="show_dealers">Show dealers</string>
+    <string name="merc_cls">Mercedes-Benz 450</string>
+    <string name="jaguar">Jaguar XJR 575</string>
+    <string name="lexus">Lexus LS 500h</string>
+    <string name="mustang">Ford Mustang Blue Edition</string>
+    <string name="isuzu">Isuzu MU-X</string>
+    <string name="mazda">Mazda 4</string>
+    <string name="toyota">Toyota RAV4</string>
+    <string name="renault">Renault Kwid</string>
+    <string name="honda">Honda CR-V</string>
+    <string name="ford">Ford Territory</string>
+    <string name="audi">Audi R8</string>
+    <string name="bmw">BMW 6 Series</string>
+    <string name="textview">TextView</string>
+
+    <string-array name="merc_dealers">
+        <item>Mercedes Benz of Chicagao, 1532 W North Avenue,</item>
+        <item>Windy City Motors, 2662 N. Cicero Ave  CHICAGO, IL 60639</item>
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+    </string-array>
+    <string-array name="jaguar_dealers">
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+        <item>Jaguar Chicago, 1924 North Paulina Street Chicago,IL 60622</item>
+        <item>Mancuso Motorsports, 677 N Clark St Corner of Clark and Huron Chicago, IL 60654</item>
+    </string-array>
+    <string-array name="lexus_dealers">
+        <item>McGrath Lexus of Chicago Sales Center, 1250 W Division St, Chicago, IL 60642</item>
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+        <item>Windy City Motors, 2662 N. Cicero Ave  CHICAGO, IL 60639</item>
+    </string-array>
+    <string-array name="mustang_dealers">
+        <item>McLaren Chicago Showroom, 645 W Randolph St, Chicago, IL 60661</item>
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+        <item>World Discount Auto, 800 S Western Ave, Chicago, IL 60612</item>
+    </string-array>
+    <string-array name="isuzu_dealers">
+        <item>Illinois Truck Centre Inc, 700 Devon Ave, Elk Grove Village, IL 60007</item>
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+        <item>Rush Truck Center, 4655 S Central Ave, Chicago, IL 60638</item>
+    </string-array>
+    <string-array name="mazda_dealers">
+        <item>The Autobarn City Mazda,  3255 N Cicero Ave, Chicago, IL 60641</item>
+        <item>West End Auto Inc, 148 N Cicero Ave, Chicago, IL 60644</item>
+        <item>Wilkins Mazda, 740 N York St, Elmhurst, IL 60126</item>
+    </string-array>
+    <string-array name="toyota_dealers">
+        <item>Chicago Northside Toyota, 6042 N Western Ave, Chicago, IL 60659</item>
+        <item>Grossinger City Toyota, 1561 N Fremont St, Chicago, IL 60642</item>
+        <item>Midtown Toyota, 2700 N Cicero Ave, Chicago, IL 60639</item>
+    </string-array>
+    <string-array name="renault_dealers">
+        <item>McLaren Chicago Showroom, 645 W Randolph St, Chicago, IL 60661</item>
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+        <item>World Discount Auto, 800 S Western Ave, Chicago, IL 60612</item>
+    </string-array>
+    <string-array name="honda_dealers">
+        <item>Honda City Chicago, 4950 S Pulaski Avenue,</item>
+        <item>Windy City Motors, 2662 N. Cicero Ave  CHICAGO, IL 60639</item>
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+    </string-array>
+    <string-array name="ford_dealers"><item>Fox Ford Lincon, 2501 N Elston Avenue</item>
+        <item>Windy City Motors, 2662 N. Cicero Ave  CHICAGO, IL 60639</item>
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+    </string-array>
+    <string-array name="audi_dealers">
+        <item>Fletcher Jones Audi, 1523 W North Avenue</item>
+        <item>Windy City Motors, 2662 N. Cicero Ave  CHICAGO, IL 60639</item>
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+    </string-array>
+    <string-array name="bmw_dealers"><item>Perillio BMW, 1035 N Clark St</item>
+        <item>Windy City Motors, 2662 N. Cicero Ave  CHICAGO, IL 60639</item>
+        <item>Greater Chicago Motors, 1850 N Elston Ave, Chicago, IL 60642</item>
+    </string-array>
+</resources>

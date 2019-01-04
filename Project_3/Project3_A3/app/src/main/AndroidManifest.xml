@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.uic.cs478.sylvesterraj.project3_a3">
+
+    <permission
+        android:name="edu.uic.cs478.f18.project3"
+        android:description="@string/permission_desc"
+        android:label="cs478 permission"
+        android:protectionLevel="dangerous" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="edu.uic.cs478.f18.project3" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ReceiverActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SanFranMainActivity"></activity>
+        <meta-data android:name="android.webkit.WebView.EnableSafeBrowsing" android:value="false" />
+        <receiver
+            android:label="myReceiver"
+            android:enabled="true"
+            android:name="BroadReceiver"
+            android:exported="true" >
+            <intent-filter android:priority="1">
+                <action android:name="edu.uic.cs478.BroadcastReceiverPro3.sanFransisco"  >
+                </action>
+                <action android:name="edu.uic.cs478.BroadcastReceiverPro3.newYork"></action>
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

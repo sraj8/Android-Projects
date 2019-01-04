@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Project3_A2</string>
+    <string name="welcome_user">Welcome User</string>
+    <string name="check_permission">Check Permission</string>
+    <string name="permission_desc">Allows the CS 478 Instructor\'s and TA\'s to fiddle with the app</string>
+</resources>

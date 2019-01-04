@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project3_A3</string>
+    <string name="welcome_user">Welcome User to App 3</string>
+    <string name="permission_desc">Allows the CS 478 Instructor\'s and TA\'s to fiddle with the app</string>
+    <string-array name="Places">
+        <item>Golden Gate Bridge</item>
+        <item>Alcatraz Island</item>
+        <item>Pier 39</item>
+        <item>Union Square</item>
+        <item>Muir Woods National Monument</item>
+        <item>Twin Peaks</item>
+    </string-array>
+    <string-array name="PlacesURL">
+        <item>http://www.goldengatebridge.org</item>
+        <item>https://www.nps.gov/alca/index.htm</item>
+        <item>https://www.pier39.com</item>
+        <item>http://www.visitunionsquaresf.com</item>
+        <item>https://www.nps.gov/muwo/index.htm</item>
+        <item>https://sfrecpark.org/destination/twin-peaks/</item>
+
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Project3_A1</string>
+    <string name="permission_desc">Allows the CS 478 Instructor\'s and TA\'s to fiddle with the app</string>
+    <string name="txt_san_francisco_city">The below button will broadcast an intent with action concerning the places of interest in San Francisco city</string>
+    <string name="txt_new_york_city">The below button will broadcast an intent with action concerning the places of interest in New York city</string>
+    <string name="san_francisco_it_is">San Francisco IT IS!</string>
+    <string name="new_york_it_is">New York IT IS!</string>
+    >s
+</resources>

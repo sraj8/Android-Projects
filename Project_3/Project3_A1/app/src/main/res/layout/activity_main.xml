@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sf_tv"
+        android:layout_width="325dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="28dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/txt_san_francisco_city"
+        app:layout_constraintBottom_toTopOf="@+id/sf_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sf_button"
+        android:layout_width="134dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/san_francisco_it_is"
+        app:layout_constraintBottom_toTopOf="@+id/ny_tv"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sf_tv" />
+
+    <TextView
+        android:id="@+id/ny_tv"
+        android:layout_width="325dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="29dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/txt_new_york_city"
+        app:layout_constraintBottom_toTopOf="@+id/ny_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sf_button" />
+
+    <Button
+        android:id="@+id/ny_button"
+        android:layout_width="134dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="99dp"
+        android:layout_marginTop="26dp"
+        android:text="@string/new_york_it_is"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ny_tv" />
+</android.support.constraint.ConstraintLayout>
